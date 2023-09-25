@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @font-face {
+	font-family: 'cantarell';
+    font-style: Bold;
+    font-weight: 700;
+	src: url('/fonts/cantarell-bold.ttf');
+}
+
+@font-face {
 	font-family: 'zolina';
     font-style: Light;
     font-weight: 400;

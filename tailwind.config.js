@@ -4,7 +4,18 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				serif: ['zolina', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif']
+				serif: ['zolina', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+				mono: [
+					'cantarell',
+					'ui-monospace',
+					'SFMono-Regular',
+					'Menlo',
+					'Monaco',
+					'Consolas',
+					'Liberation Mono',
+					'Courier New',
+					'monospace'
+				]
 			}
 		}
 	},
