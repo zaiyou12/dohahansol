@@ -15,8 +15,8 @@
 		images: [
 			{
 				url: 'https://soandbae.info/cover.webp',
-				width: 800,
-				height: 527,
+				width: 400,
+				height: 264,
 				alt: 'Og Cover Image'
 			}
 		],

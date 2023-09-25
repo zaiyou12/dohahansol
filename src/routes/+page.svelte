@@ -1,7 +1,7 @@
 <div class="bg-gray-900">
 	<div class="relative isolate overflow-hidden">
 		<img
-			src="/main.webp"
+			src="/imgs/main.webp"
 			alt="main iamge of wedding"
 			class="absolute inset-0 -z-10 h-full w-full object-cover"
 		/>
