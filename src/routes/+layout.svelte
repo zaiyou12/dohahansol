@@ -3,5 +3,3 @@
 </script>
 
 <slot />
-
-export const prerender = true;
