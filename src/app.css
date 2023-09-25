@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'zolina';
+    font-style: Light;
+    font-weight: 400;
+	src: url('/fonts/zolina-light.ttf');
+}
