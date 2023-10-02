@@ -5,26 +5,26 @@
 <div class="embla bg-gray-50">
   <div class="embla__viewport" use:emblaCarouselSvelte>
     <div class="embla__container">
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_1.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_2.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_3.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_4.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_5.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_6.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/door_7.webp" alt="So and Bae are both stand behind the red door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_1.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_2.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_3.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_4.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_5.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_6.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_7.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/house_8.webp" alt="So and Bae are both stand infront of the white door"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/wine_1.webp" alt="So and Bae are both holding a wind glass"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/wine_2.webp" alt="So and Bae are both holding a wind glass"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/wine_3.webp" alt="So and Bae are both holding a wind glass"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/wine_4.webp" alt="So and Bae are both holding a wind glass"/></div>
-      <div class="embla__slide"><img src="/imgs/black_gallery/out_1.webp" alt="So and Bae are both stand outside of the house"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_1.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_2.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_3.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_4.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_5.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_6.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/door_7.webp" alt="So and Bae are both stand behind the red door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_1.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_2.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_3.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_4.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_5.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_6.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_7.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/house_8.webp" alt="So and Bae are both stand infront of the white door" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/wine_1.webp" alt="So and Bae are both holding a wind glass" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/wine_2.webp" alt="So and Bae are both holding a wind glass" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/wine_3.webp" alt="So and Bae are both holding a wind glass" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/wine_4.webp" alt="So and Bae are both holding a wind glass" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/black_gallery/out_1.webp" alt="So and Bae are both stand outside of the house" loading="lazy"/></div>
     </div>
   </div>
 </div>

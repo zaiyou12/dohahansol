@@ -31,26 +31,26 @@
 <div class="embla bg-gray-50">
   <div class="embla__viewport" use:emblaCarouselSvelte on:emblaInit={onInit}>
     <div class="embla__container">
-      <div class="embla__slide"><img src="/imgs/white_gallery/white_gallery_cover.webp" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/sit_1.jpg" alt="So and Bae are both sit on the ground"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/sit_2.jpg" alt="So and Bae are both sit on the ground"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/sit_3.jpg" alt="So and Bae are both sit on the ground"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/sit_4.jpg" alt="So and Bae are both sit on the ground"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/sit_5.jpg" alt="So and Bae are both sit on the ground"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/sit_6.jpg" alt="So and Bae are both sit on the ground"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/chair_1.jpg" alt="So and Bae are both sit on the chair"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/chair_2.jpg" alt="So and Bae are both sit on the chair"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/chair_3.jpg" alt="So and Bae are both sit on the chair"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_0.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_1.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_2.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_3.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_4.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_5.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_6.webp" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_7.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/bed_9.jpg" alt="So and Bae are both sit on the bed"/></div>
-      <div class="embla__slide"><img src="/imgs/white_gallery/stand.jpg" alt="So and Bae are both stand on the ground"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/white_gallery_cover.webp" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/sit_1.jpg" alt="So and Bae are both sit on the ground" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/sit_2.jpg" alt="So and Bae are both sit on the ground" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/sit_3.jpg" alt="So and Bae are both sit on the ground" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/sit_4.jpg" alt="So and Bae are both sit on the ground" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/sit_5.jpg" alt="So and Bae are both sit on the ground" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/sit_6.jpg" alt="So and Bae are both sit on the ground" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/chair_1.jpg" alt="So and Bae are both sit on the chair" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/chair_2.jpg" alt="So and Bae are both sit on the chair" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/chair_3.jpg" alt="So and Bae are both sit on the chair" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_0.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_1.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_2.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_3.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_4.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_5.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_6.webp" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_7.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/bed_9.jpg" alt="So and Bae are both sit on the bed" loading="lazy"/></div>
+      <div class="embla__slide"><img src="/imgs/white_gallery/stand.jpg" alt="So and Bae are both stand on the ground" loading="lazy"/></div>
     </div>
   </div>
   <!-- <button class="embla__prev" on:click={prevSection}>Prev</button>
