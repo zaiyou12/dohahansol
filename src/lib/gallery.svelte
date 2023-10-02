@@ -32,7 +32,9 @@
   <div class="embla__viewport" use:emblaCarouselSvelte on:emblaInit={onInit}>
     <div class="embla__container">
       {#each images as src, index}
-        <div class="embla__slide"><img src={`${imgPath}/${src}`} alt={`Gallery #${index}`} loading="lazy" /></div>
+        <div class="embla__slide">
+          <img src={`${imgPath}/${src}`} alt={`Gallery #${index}`} loading="lazy" />
+        </div>
       {/each}
     </div>
   </div>

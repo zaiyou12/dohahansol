@@ -15,7 +15,7 @@
   </div>
 </div>
 
-<Gallery imgPath="/imgs/white_gallery" {images}/>
+<Gallery imgPath="imgs/white_gallery" {images}/>
 
 <style lang="postcss">
   p.gallery {
