@@ -57,7 +57,7 @@
   <button class="embla__next" on:click={nextSection}>Next</button> -->
 </div>
 
-<style>
+<style lang="postcss">
   p.gallery {
     color: #328C4B;
   }
@@ -75,8 +75,6 @@
     grid-auto-flow: column;
     grid-auto-columns: 80%; /* Each slide covers 80% of the viewport */
     grid-column-gap: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
     @media (min-width: 1024px) {
       grid-auto-columns: 40%;
     }
