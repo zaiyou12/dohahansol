@@ -1,7 +1,8 @@
 <div class="bg-gray-50 px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-sm px-8 sm:max-w-lg sm:px-0"><img src="/imgs/ribbon.webp" alt="재우 ♥ 채연"></div>
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">소중한 분들을 초대합니다</h2>
+      <p class="text-base font-semibold leading-7 tracking-widest gallery">Invitation</p>
+      <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">소중한 분들을 초대합니다</h2>
       <p class="mt-10 body">두 사람이 서로에 대한 사랑과 믿음으로</p>
       <p class="body">앞으로의 인생길을 함께 가려고 합니다</p>
       <p class="mt-6 body">먼 길도 가까운 길처럼</p>
@@ -18,5 +19,8 @@ p.body {
   line-height: 1.75rem; 
   line-height: 2rem; 
   color: #4B5563; 
+}
+p.gallery {
+  color: #328C4B;
 }
 </style>

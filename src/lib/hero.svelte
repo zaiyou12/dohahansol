@@ -31,13 +31,7 @@
     height: 100%;
     margin: auto;
     text-align: left; 
-    background-color: #00000050; 
-
-    @media (min-width: 640px) { 
-    }
-
-    @media (min-width: 1024px) { 
-    }
+    background-color: #00000050;
   }
   p {
     font-family: 'cantarell', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas';
