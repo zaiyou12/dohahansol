@@ -1,38 +1,24 @@
-# create-svelte
+# Save the date
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+이 프로젝트는 Svelte와 TailwindCSS를 사용하여 모바일 청첩장을 만드는 것을 목표로 합니다. Github actions과 pages를 사용하여 배포하였고, url를 QR코드로 제작하여 종이 첩청장에 추가하였습니다.
 
-## Creating a project
+![Save the date](./static/preview_img.webp)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- 모바일 친화적 디자인
+- 날짜 및 장소 정보 표시
+- 사진 갤러리
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+yarn
+yarn dev
 ```
 
 ## Building
 
-To create a production version of your app:
-
 ```bash
-npm run build
+yarn build
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
