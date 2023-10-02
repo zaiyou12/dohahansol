@@ -4,12 +4,12 @@
 </script>
 
 <MetaTags
-	title="재우 ❤️ 채연, Our happy wedding"
-	titleTemplate="재우 ❤️ 채연 | Our happy wedding"
+	title="재우 ♥ 채연 결혼합니다"
+	titleTemplate="재우 ❤️ 채연 결혼합니다"
 	description="23년 12월 3일 일요일 오후 12시. 두 사람이 서로에 대한 사랑과 믿음으로 앞으로의 인생길을 함께 가려고 합니다. 먼 길도 가까운 길처럼 아름답지 않은 길도 아름다운 길처럼 두 손 잡고 웃으며 한 걸음씩 걸어가겠습니다. 그 시작을 축복해주세요."
 	openGraph={{
 		url: 'https://soandbae.info',
-		title: '재우 ❤️ 채연, Our happy wedding',
+		title: '재우 ❤️ 채연 결혼합니다',
 		description:
 			'23년 12월 3일 일요일 오후 12시. 두 사람이 서로에 대한 사랑과 믿음으로 앞으로의 인생길을 함께 가려고 합니다. 먼 길도 가까운 길처럼 아름답지 않은 길도 아름다운 길처럼 두 손 잡고 웃으며 한 걸음씩 걸어가겠습니다. 그 시작을 축복해주세요.',
 		images: [

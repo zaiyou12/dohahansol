@@ -1,0 +1,7 @@
+{
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"prettier.documentSelectors": ["**/*.svelte"],
+	"editor.tabSize": 2
+}

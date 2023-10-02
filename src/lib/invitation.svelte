@@ -1,0 +1,22 @@
+<div class="bg-gray-50 px-6 py-24 sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-sm px-8 sm:max-w-lg sm:px-0"><img src="/imgs/ribbon.webp" alt="재우 ♥ 채연"></div>
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">소중한 분들을 초대합니다</h2>
+      <p class="mt-10 body">두 사람이 서로에 대한 사랑과 믿음으로</p>
+      <p class="body">앞으로의 인생길을 함께 가려고 합니다</p>
+      <p class="mt-6 body">먼 길도 가까운 길처럼</p>
+      <p class="body">아름답지 않은 길도 아름다운 길처럼</p>
+      <p class="body">두 손 잡고 웃으며 한 걸음씩 걸어가겠습니다.</p>
+      <p class="mt-6 body">그 시작을 축복해주세요</p>
+    </div>
+    <div class="mx-auto max-w-sm px-8 pt-6 sm:max-w-lg sm:px-0"><img src="/imgs/namecard.webp" alt="name card"></div>
+  </div>
+
+<style lang="postcss">
+p.body {
+  font-size: 1.125rem;
+  line-height: 1.75rem; 
+  line-height: 2rem; 
+  color: #4B5563; 
+}
+</style>
