@@ -6,19 +6,19 @@
         loading="lazy"
     />
     <div class="wrapper">
-  <div class="items">
-    <p>SAVE THE DATE</p>
-    <p>JAEWOO AND CHAEYEON</p>
-  </div>
-  <div class="items">
-    <h2>3</h2>
-    <h2>DEC</h2>
-    <h2>2023</h2>
-  </div>
-  <div class="items">
-    <p>THE AMBASSADOR SEOUL</p>
-    <p>NAMSAN ROOM</p>
-  </div>
+      <div class="items">
+        <p>SAVE THE DATE</p>
+        <p>JAEWOO AND CHAEYEON</p>
+      </div>
+      <div class="items">
+        <h2>3</h2>
+        <h2>DEC</h2>
+        <h2>2023</h2>
+      </div>
+      <div class="items">
+        <p>THE AMBASSADOR SEOUL</p>
+        <p>NAMSAN ROOM</p>
+      </div>
     </div>
 </div>
 
