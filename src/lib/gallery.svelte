@@ -2,9 +2,9 @@
   import emblaCarouselSvelte from 'embla-carousel-svelte'
 
   /**
-   * @type {{ scrollPrev: () => void; scrollNext: () => void; }}
+   * @type {{ scrollPrev: () => void; scrollNext: () => void; selectedScrollSnap: () => number; }}
    */
-  let emblaApi
+  let emblaApi;
 
   /**
    * @param {{ detail: any; }} event
@@ -14,11 +14,13 @@
   }
 
   function prevSection() {
-    if (emblaApi) emblaApi.scrollPrev()
+    if (!emblaApi) return
+    emblaApi.scrollPrev()
   }
-
+  
   function nextSection() {
-    if (emblaApi) emblaApi.scrollNext()
+    if (!emblaApi) return
+    emblaApi.scrollNext()
   }
 
   export let imgPath = '';
@@ -29,7 +31,7 @@
 </script>
 
 <div class="embla bg-gray-50">
-  <div class="embla__viewport" use:emblaCarouselSvelte on:emblaInit={onInit}>
+  <div class="embla__viewport" use:emblaCarouselSvelte on:emblaInit={onInit} >
     <div class="embla__container">
       {#each images as src, index}
         <div class="embla__slide">
@@ -38,11 +40,11 @@
       {/each}
     </div>
   </div>
-  <button class="absolute top-1/2 left-4" on:click={prevSection}>
-    <img class="w-[26px] h-[26px] rotate-180" src="/carousel-arrow.svg" alt="carousel carousel left" />
+  <button class="absolute top-1/2 left-4 disabled:opacity-30 disabled:cursor-not-allowed" on:click={prevSection}>
+    <img class="w-[26px] h-[26px] rotate-180" src="/carousel-arrow.svg" alt="carousel carousel left" loading="lazy"/>
   </button>
-  <button class="absolute top-1/2 right-4" on:click={nextSection}>
-    <img class="w-[26px] h-[26px]" src="/carousel-arrow.svg" alt="carousel carousel right" />
+  <button class="absolute top-1/2 right-4 disabled:opacity-30 disabled:cursor-not-allowed" on:click={nextSection}>
+    <img class="w-[26px] h-[26px]" src="/carousel-arrow.svg" alt="carousel carousel right" loading="lazy"/>
   </button>
 </div>
 
@@ -52,17 +54,24 @@
     height: 80%;
     position: relative;
   }
+  .embla__viewport {
+    overflow: hidden;
+    height: 100%;
+  }
   .embla__container {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 80%; /* Each slide covers 80% of the viewport */
-    grid-column-gap: 2rem;
+    grid-auto-columns: 90%;
+    grid-column-gap: 1rem;
+    height: 100%;
     @media (min-width: 1024px) {
       grid-auto-columns: 30%;
+      grid-column-gap: 2rem;
     }
   }
   .embla__slide {
     min-width: 0;
+    min-height: 0;
   }
   img {
     height: 100%;

@@ -3,6 +3,7 @@
         src="/imgs/main.webp"
         alt="main iamge of wedding"
         class="absolute inset-0 -z-10 h-full w-full object-cover"
+        loading="lazy"
     />
     <div class="wrapper">
   <div class="items">

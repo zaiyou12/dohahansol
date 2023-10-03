@@ -8,5 +8,5 @@
   ];
 </script>
 
-<div class="h-24 bg-gray-50"></div>
+<div class="lg:h-24 bg-gray-50"></div>
 <Gallery imgPath="imgs/black_gallery" {images}/>
