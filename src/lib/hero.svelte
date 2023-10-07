@@ -16,7 +16,7 @@
         <h2>2023</h2>
       </div>
       <div class="items">
-        <p>THE AMBASSADOR SEOUL</p>
+        <p>AMBASSADOR PULLMAN</p>
         <p>NAMSAN ROOM</p>
       </div>
     </div>

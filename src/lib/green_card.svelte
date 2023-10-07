@@ -16,7 +16,7 @@
 
 <style lang="postcss">
   .bg {
-    background-color: #8FA599;
+    background-color: #36864C;
   }
   .wrapper {
     display: flex;
@@ -33,7 +33,5 @@
     @media (min-width: 640px) {
       width: 90%;
     }
-  }
-  p {
   }
 </style>
