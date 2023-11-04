@@ -1,13 +1,7 @@
 <script lang="ts">
-const text = "서울 중구 동호로 287"
 const lat = 37.5604038
 const lng = 127.002479
 const place = "소재우 배채연 결혼식장"
-
-const onCopy = () => {
-  navigator.clipboard.writeText(text).then(()=> alert('주소가 복사되었습니다'))
-}
-
 </script>
 
 <div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -28,13 +22,13 @@ const onCopy = () => {
         <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
       </button>
     </div> -->
-    <div class="flex justify-center">
-      <a class="flex items-center px-2 py-1.5 text-white" href="nmap://route/public?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(place)}">
-        <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
+    <div class="flex justify-evenly md:hidden">
+      <a class="flex items-center px-2 py-1.5 text-white" href="nmap://route/public?dlat={lat}&dlng={lng}&dname={encodeURIComponent(place)}">
+        <img class="w-8" src="/imgs/icons/naver_map.webp" alt="copy button" />
         <p class="ml-2 button">네이버 지도</p>
       </a>
-      <a class="ml-4 flex items-center px-2 py-1.5" href="nmap://route/public?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(place)}">
-        <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
+      <a class="flex items-center px-2 py-1.5" href="tmap://route?rGoName={encodeURIComponent(place)}&rGoX={lng}&rGoY={lat}">
+        <img class="w-8" src="/imgs/icons/t_map.svg" alt="copy button" />
         <p class="ml-2 button">T map</p>
       </a>
     </div>
