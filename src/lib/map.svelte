@@ -1,5 +1,8 @@
 <script lang="ts">
 const text = "서울 중구 동호로 287"
+const lat = 37.5604038
+const lng = 127.002479
+const place = "소재우 배채연 결혼식장"
 
 const onCopy = () => {
   navigator.clipboard.writeText(text).then(()=> alert('주소가 복사되었습니다'))
@@ -11,22 +14,39 @@ const onCopy = () => {
   <div class="text-wrapper">
     <p class="sub-title">Map</p>
     <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">오시는 길</h2>
+    <p class="body mt-10">2023년 12월 3일 일요일 오후 12시</p>
+    <p class="body">앰배서더 서울 풀만 호텔 19F 남산룸</p>
   </div>
   <div class="mx-auto max-w-2xl pt-16"><img src="/imgs/map.webp" alt="map" loading="lazy"></div>
-  <div class="text-wrapper">
-    <p class="body font-bold gallery mt-10">앰배서더 서울 풀만</p>
+  <div class="text-wrapper mt-12">
+    <!-- <p class="body font-bold gallery mt-10">앰배서더 서울 풀만</p>
     <div class="flex flex-row justify-center items-center">
       <button on:click={onCopy}>
-        <p class="body underline">{text} (장충동2가 186-54)</p>
+        <p class="body">{text}</p>
       </button>
       <button on:click={onCopy}>
         <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
       </button>
+    </div> -->
+    <div class="flex justify-center">
+      <a class="flex items-center px-2 py-1.5 text-white" href="nmap://route/public?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(place)}">
+        <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
+        <p class="ml-2 button">네이버 지도</p>
+      </a>
+      <a class="ml-4 flex items-center px-2 py-1.5" href="nmap://route/public?dlat=${lat}&dlng=${lng}&dname=${encodeURIComponent(place)}">
+        <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
+        <p class="ml-2 button">T map</p>
+      </a>
     </div>
   </div>
 </div>
 
 
 <style lang="postcss">
-  
+p.button {
+  font-size: 1rem;
+  line-height: 1rem; 
+  line-height: 1.5rem; 
+  color: #4B5563; 
+}
 </style>
