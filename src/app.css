@@ -15,3 +15,18 @@
 	font-weight: 400;
 	src: url('/fonts/zolina-light.ttf');
 }
+
+.text-wrapper {
+	@apply mx-auto max-w-2xl text-center;
+}
+
+p.body {
+  font-size: 1.125rem;
+  line-height: 1.75rem; 
+  line-height: 2rem; 
+  color: #4B5563; 
+}
+p.sub-title {
+	@apply text-base font-semibold leading-7 tracking-widest;
+  color: #328C4B;
+}

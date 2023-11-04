@@ -4,6 +4,7 @@
   import GalleryWhite from '$lib/gallery_white.svelte';
   import GalleryBlack from '$lib/gallery_black.svelte';
   import GreenCard from '$lib/green_card.svelte';
+	import Map from '$lib/map.svelte';
 </script>
 
 <div class="w-full h-full">
@@ -11,5 +12,5 @@
   <Invitation />
   <GalleryWhite />
   <GalleryBlack />
-  <GreenCard />
+  <Map />
 </div>
