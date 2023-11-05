@@ -32,6 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"embla-carousel-svelte": "^8.0.0-rc14"
+		"embla-carousel-svelte": "^8.0.0-rc14",
+		"firebase": "^10.5.2"
 	}
 }
