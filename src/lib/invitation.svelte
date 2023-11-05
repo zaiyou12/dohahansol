@@ -10,11 +10,15 @@
       <p class="body">두 손 잡고 웃으며 한 걸음씩 걸어가겠습니다.</p>
       <p class="mt-6 body">그 시작을 축복해주세요</p>
     </div>
-  <div class="pt-6 img-wrapper"><img src="/imgs/signature.webp" alt="SO and BAE's signature" loading="lazy"></div>
+  <div class="img-wrapper pt-6 "><img src="/imgs/signature.webp" alt="SO and BAE's signature" loading="lazy"></div>
+  <div class="img-wrapper pt-6 smaller"><img src="/imgs/date.webp" alt="SO and BAE's wedding date" loading="lazy"></div>
 </div>
 
 <style lang="postcss">
   .img-wrapper {
     @apply mx-auto max-w-sm px-8 sm:max-w-lg sm:px-0
+  }
+  .smaller {
+    @apply mx-16
   }
 </style>
