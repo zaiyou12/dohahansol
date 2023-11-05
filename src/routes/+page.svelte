@@ -7,15 +7,20 @@
 	import Rsvp from '$lib/rsvp.svelte';
 	import Account from '$lib/account.svelte';
 	import Footer from '$lib/footer.svelte';
+	import GradientDivider from '$lib/gradient_divider.svelte';
 </script>
 
 <div class="w-full h-full">
 	<Hero />
   <Invitation />
+  <GradientDivider isWhiteToGray={true}/>
   <GalleryWhite />
   <GalleryBlack />
+  <GradientDivider isWhiteToGray={false}/>
   <Map />
+  <GradientDivider isWhiteToGray={true}/>
   <Rsvp />
+  <GradientDivider isWhiteToGray={false}/>
   <Account />
   <Footer />
 </div>
