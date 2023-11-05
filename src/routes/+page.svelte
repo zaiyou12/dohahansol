@@ -6,6 +6,7 @@
 	import Map from '$lib/map.svelte';
 	import Rsvp from '$lib/rsvp.svelte';
 	import Account from '$lib/account.svelte';
+	import Footer from '$lib/footer.svelte';
 </script>
 
 <div class="w-full h-full">
@@ -16,4 +17,5 @@
   <Map />
   <Rsvp />
   <Account />
+  <Footer />
 </div>
