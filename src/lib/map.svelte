@@ -4,10 +4,10 @@ const lng = 127.002479
 const place = "소재우 배채연 결혼식장"
 </script>
 
-<div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
+<div class="bg-white section">
   <div class="text-wrapper">
     <p class="sub-title">Map</p>
-    <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">오시는 길</h2>
+    <h2 class="mt-2">오시는 길</h2>
     <p class="body mt-10">2023년 12월 3일 일요일 오후 12시</p>
     <p class="body">앰배서더 서울 풀만 호텔 19F 남산룸</p>
   </div>

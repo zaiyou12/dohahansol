@@ -12,7 +12,7 @@
 <div class="bg-gray-50 px-6 py-24 sm:pt-32 lg:px-8">
   <div class="text-wrapper">
     <p class="text-base font-semibold leading-7 tracking-widest gallery">Gallery</p>
-    <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">우리의 순간</h2>
+    <h2 class="mt-2">우리의 순간</h2>
   </div>
 </div>
 

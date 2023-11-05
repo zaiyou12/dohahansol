@@ -5,6 +5,7 @@
   import GalleryBlack from '$lib/gallery_black.svelte';
 	import Map from '$lib/map.svelte';
 	import Rsvp from '$lib/rsvp.svelte';
+	import Account from '$lib/account.svelte';
 </script>
 
 <div class="w-full h-full">
@@ -14,4 +15,5 @@
   <GalleryBlack />
   <Map />
   <Rsvp />
+  <Account />
 </div>

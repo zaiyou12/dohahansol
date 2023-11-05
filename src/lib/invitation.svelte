@@ -1,8 +1,8 @@
-<div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
+<div class="bg-white section">
     <div class="mx-auto max-w-sm px-8 sm:max-w-lg sm:px-0"><img src="/imgs/ribbon.webp" alt="재우 ♥ 채연" loading="lazy"></div>
     <div class="text-wrapper">
       <p class="sub-title">Invitation</p>
-      <h2 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">소중한 분들을 초대합니다</h2>
+      <h2 class="mt-2">소중한 분들을 초대합니다</h2>
       <p class="mt-10 body">두 사람이 서로에 대한 사랑과 믿음으로</p>
       <p class="body">앞으로의 인생길을 함께 가려고 합니다</p>
       <p class="mt-6 body">먼 길도 가까운 길처럼</p>
