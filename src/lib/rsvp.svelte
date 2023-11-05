@@ -28,8 +28,7 @@
   <div class="text-wrapper">
     <p class="sub-title">RSVP</p>
     <h2 class="mt-2">참석의사 전달하기</h2>
-    <p class="mt-10 body">명패를 미리 준비하기 위해 참석자분의 성함을 받고 있습니다.</p>
-    <p class="body">결혼식 10일 전인 11월 26일까지 보내주시면 최대한 준비하겠습니다.</p>
+    <p class="mt-10 body">특별한 날 축하의 마음으로 참석해주시는 모든 분들을 한 분 한 분 더욱 귀하게 모실 수 있도록, 신랑·신부에게 참석여부를 전달해주세요.</p>
     <form class="mx-auto mt-10 flex flex-col max-w-md gap-4" on:submit|preventDefault={handleSubmit}>
       <div class="flex gap-4">
         <div class="input-wrapper flex-auto">
@@ -37,15 +36,16 @@
             신랑/신부
           </label>
           <select id="type" name="type">
-            <option>신랑</option>
-            <option>신부</option>
+            <option>신랑 측</option>
+            <option>신부 측</option>
           </select>
         </div>
         <div class="input-wrapper flex-auto">
           <label for="count" class="block text-sm font-medium leading-6 text-gray-900">
-            참석인원
+            동반인원
           </label>
           <select id="count" name="count">
+            <option>없음</option>
             <option>1명</option>
             <option>2명</option>
             <option>3명</option>
@@ -66,6 +66,7 @@
         <button type="submit">등록</button>
       </div>
     </form>
+    <p class="mt-10 body">예식 전 미리 안내 받으신<br>지정석에 착석 부탁드립니다.</p>
   </div>
 </div>
 
