@@ -1,40 +1,36 @@
+<script lang="ts">
+  import { onMount } from 'svelte';
+  import { fade } from 'svelte/transition';
+  let isLoading = true;
+
+  onMount(async () => {
+    setTimeout(() => {
+      isLoading = false;
+    }, 300); // 1 seconds for example
+  });
+
+</script>
+
 <div class="hero">
     <img
         src="/imgs/main.webp"
         alt="main iamge of wedding"
-        class="absolute inset-0 -z-10 h-full w-full object-cover"
         loading="lazy"
+        class="absolute inset-0 -z-10 h-full w-full object-cover"
     />
-    <div class="hero-content">
-      <div class="info">
-        <p>SAVE THE DATE</p>
-        <p>JAEWOO AND CHAEYEON</p>
-      </div>
-      <div class="date">
-        <h2>3</h2>
-        <h2>DEC</h2>
-        <h2>2023</h2>
-      </div>
-      <div class="info">
-        <p>AMBASSADOR PULLMAN</p>
-        <p>NAMSAN ROOM</p>
-      </div>
-    </div>
+    {#if !isLoading}
+    <img 
+      src="/imgs/main_cover.webp"
+      alt="cover of main"
+      loading="lazy"
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+      transition:fade={{ duration: 1000 }}
+    />
+    {/if}
 </div>
 
 <style lang="postcss">
   .hero {
     @apply relative overflow-hidden w-full h-full
   }
-  .hero-content {
-    @apply flex flex-col justify-around px-8 max-w-xl h-full mx-auto text-left bg-black bg-opacity-50;
-  }
-  .info p {
-    font-family: 'cantarell', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas';
-    @apply text-white text-lg leading-8 uppercase tracking-widest;
-  }
-  .date h2 {
-    font-family: 'zolina', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman';
-    @apply text-white text-4xl font-bold leading-tight tracking-widest mt-4 sm:mt-8 sm:text-6xl;
-  }
-  </style>
+</style>
