@@ -13,17 +13,8 @@ const place = "소재우 배채연 결혼식장"
   </div>
   <div class="mx-auto max-w-2xl pt-16"><img src="/imgs/map.webp" alt="map" loading="lazy"></div>
   <div class="text-wrapper mt-12">
-    <!-- <p class="body font-bold gallery mt-10">앰배서더 서울 풀만</p>
-    <div class="flex flex-row justify-center items-center">
-      <button on:click={onCopy}>
-        <p class="body">{text}</p>
-      </button>
-      <button on:click={onCopy}>
-        <img class="w-8 ml-2 mb-1" src="/imgs/copy.svg" alt="copy button" />
-      </button>
-    </div> -->
     <div class="flex justify-evenly md:hidden">
-      <a class="flex items-center px-2 py-1.5 text-white" href="nmap://route/public?dlat={lat}&dlng={lng}&dname={encodeURIComponent(place)}">
+      <a class="flex items-center px-2 py-1.5" href="nmap://route/public?dlat={lat}&dlng={lng}&dname={encodeURIComponent(place)}">
         <img class="w-8" src="/imgs/icons/naver_map.webp" alt="copy button" />
         <p class="ml-2 button">네이버 지도</p>
       </a>

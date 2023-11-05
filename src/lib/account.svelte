@@ -18,7 +18,7 @@
 
 <div class="section bg-white">
   <div class="text-wrapper">
-    <p class="sub-title">RSVP</p>
+    <p class="sub-title">Contact</p>
     <h2 class="mt-2">{title}</h2>
     <p class="mt-10 body">{desc}</p>
   </div>

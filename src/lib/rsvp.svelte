@@ -27,7 +27,7 @@
 <div class="bg-gray-50 section">
   <div class="text-wrapper">
     <p class="sub-title">RSVP</p>
-    <h2 class="mt-2">참석하기</h2>
+    <h2 class="mt-2">참석의사 전달하기</h2>
     <p class="mt-10 body">명패를 미리 준비하기 위해 참석자분의 성함을 받고 있습니다.</p>
     <p class="body">결혼식 10일 전인 11월 26일까지 보내주시면 최대한 준비하겠습니다.</p>
     <form class="mx-auto mt-10 flex flex-col max-w-md gap-4" on:submit|preventDefault={handleSubmit}>

@@ -1,5 +1,5 @@
 <div class="bg-white section">
-    <div class="mx-auto max-w-sm px-8 sm:max-w-lg sm:px-0"><img src="/imgs/ribbon.webp" alt="재우 ♥ 채연" loading="lazy"></div>
+    <div class="img-wrapper"><img src="/imgs/ribbon.webp" alt="재우 ♥ 채연" loading="lazy"></div>
     <div class="text-wrapper">
       <p class="sub-title">Invitation</p>
       <h2 class="mt-2">소중한 분들을 초대합니다</h2>
@@ -10,5 +10,11 @@
       <p class="body">두 손 잡고 웃으며 한 걸음씩 걸어가겠습니다.</p>
       <p class="mt-6 body">그 시작을 축복해주세요</p>
     </div>
-  <div class="mx-auto max-w-sm px-8 pt-6 sm:max-w-lg sm:px-0"><img src="/imgs/signature.webp" alt="SO and BAE's signature" loading="lazy"></div>
+  <div class="pt-6 img-wrapper"><img src="/imgs/signature.webp" alt="SO and BAE's signature" loading="lazy"></div>
 </div>
+
+<style lang="postcss">
+  .img-wrapper {
+    @apply mx-auto max-w-sm px-8 sm:max-w-lg sm:px-0
+  }
+</style>
