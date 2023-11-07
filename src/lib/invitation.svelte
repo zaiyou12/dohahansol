@@ -1,8 +1,15 @@
+<script lang="ts">
+  export let isInvited = true
+
+  const subTitle = isInvited ? 'Invitation': "We're getting married"
+  const title = isInvited ? '소중한 분들을 초대합니다' : '결혼합니다' 
+</script>
+
 <div class="bg-white section">
     <div class="img-wrapper"><img src="/imgs/ribbon.webp" alt="재우 ♥ 채연" loading="lazy"></div>
     <div class="text-wrapper">
-      <p class="sub-title">Invitation</p>
-      <h2 class="mt-2">소중한 분들을 초대합니다</h2>
+      <p class="sub-title">{ subTitle }</p>
+      <h2 class="mt-2">{ title }</h2>
       <p class="mt-10 body">두 사람이 서로에 대한 사랑과 믿음으로</p>
       <p class="body">앞으로의 인생길을 함께 가려고 합니다</p>
       <p class="mt-6 body">먼 길도 가까운 길처럼</p>

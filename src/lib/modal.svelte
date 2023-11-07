@@ -5,6 +5,9 @@
   export let open
   
   /** @type {String} */
+  export let subTitle
+  
+  /** @type {String} */
   export let title
   
   /** @type {(event: MouseEvent) => void}   */
@@ -15,10 +18,11 @@
   <div class="w-screen fixed inset-0 bg-gray-500 bg-opacity-75" transition:fade></div>
 
   <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
-    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+    <div class="flex min-h-full items-end justify-center text-center sm:items-center sm:p-0">
       <div transition:fly="{{ y: 20, duration: 300 }}" class="relative mx-auto w-full transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
         <div>
           <div class="mt-3 text-center sm:mt-5">
+            <p class="sub-title">{ subTitle }</p>
             <h2>{ title }</h2>
             <div class="mt-2">
               <slot />

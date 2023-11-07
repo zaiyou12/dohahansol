@@ -1,8 +1,9 @@
 <script lang="ts">
 	import Modal from '$lib/modal.svelte'
 
+  const subTitle = "Contact"
   const title = "마음 전하실 곳";
-  const desc = "참석이 어려우신 혼주측 하객분들을 위해 마음 전할 곳을 남깁니다."
+  const desc = "작은 결혼식을 올리게 되어 감사한 모든 분들을 함께 모시지 못하는 점 너그러운 양해를 구합니다. \n마음으로 축복해 주시면 더없는 기쁨으로 간직하고 서로 아끼며 살겠습니다."
   const account_1 = "1002-293-182182";
   const account_2 = "8512-0104-055786";
 
@@ -18,33 +19,34 @@
 
 <div class="section bg-white">
   <div class="text-wrapper">
-    <p class="sub-title">Contact</p>
-    <h2 class="mt-2">{title}</h2>
-    <p class="mt-10 body">{desc}</p>
+    <p class="sub-title">{ subTitle }</p>
+    <h2 class="mt-2">{ title }</h2>
+    <p class="mt-10 body">{ desc }</p>
+    <p class="mt-10 body">소창열 · 배동옥의   아들   소재우</p>
+    <p class="mt-2 body">배종호 · 이영란의   딸    배채연</p>
   </div>
-  <div class="flex justify-center mt-4">
+  <div class="flex justify-center mt-8">
     <button class="max-w-md" on:click={openDialog}>{" "}전달하기{" "}</button>
   </div>
-  <Modal {open} {title} {closeDialog}>
+  <Modal {open} {title} {subTitle} {closeDialog}>
     <div class="flex flex-row mt-4 justify-center items-center gap-x-2">
-      <p><strong>신랑측 혼주:</strong> 배동옥 우리</p>
+      <p><strong>신랑측:</strong>{"\n"}배동옥 우리</p>
       <button on:click={() => onCopy(account_1)}>
         {account_1}
       </button>
       <button class="p-0" on:click={() => onCopy(account_1)}>
-        <img class="w-10 p-2" src="/imgs/copy.svg" alt="copy button" />
+        <img class="w-4" src="/imgs/copy.svg" alt="copy button" />
       </button>
     </div>
     <div class="flex flex-row mt-4 justify-center items-center gap-x-2">
-      <p><strong>신부측 혼주:</strong> 배종호 이영란 국민</p>
+      <p><strong>신부측:</strong>{"\n"}이영란 국민</p>
       <button on:click={() => onCopy(account_2)}>
         {account_2}
       </button>
       <button class="p-0" on:click={() => onCopy(account_2)}>
-        <img class="w-10 p-2" src="/imgs/copy.svg" alt="copy button" />
+        <img class="w-4" src="/imgs/copy.svg" alt="copy button" />
       </button>
     </div>
-    <p class="mt-4">{desc}</p>
   </Modal>
 </div>
 
