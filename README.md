@@ -2,7 +2,7 @@
 
 이 프로젝트는 Svelte와 TailwindCSS를 사용하여 모바일 청첩장을 만드는 것을 목표로 합니다. Github actions과 pages를 사용하여 배포하였고, url를 QR코드로 제작하여 종이 첩청장에 추가하였습니다.
 
-![Save the date](./static/preview_img.webp)
+![signature](./static/imgs/signature.webp)
 
 ## Features
 
