@@ -31,9 +31,15 @@ h2 {
 p.body {
   font-size: 1.125rem;
   line-height: 1.75rem; 
-  line-height: 2rem; 
   color: #4B5563; 
 }
+
+p.small {
+	@apply text-slate-500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 p.sub-title {
 	@apply text-base font-semibold leading-7 tracking-widest;
   color: #328C4B;

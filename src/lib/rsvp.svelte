@@ -28,8 +28,8 @@
   <div class="text-wrapper">
     <p class="sub-title">RSVP</p>
     <h2 class="mt-2">참석 의사 전달하기</h2>
-    <p class="mt-10 body">특별한 날 축하의 마음으로 참석해주시는
-      모든 분들을 더욱 귀하게 모실 수 있도록
+    <p class="mt-10 body">특별한 날 축하의 마음으로 참석해주시는<br>
+      모든 분들을 더욱 귀하게 모실 수 있도록<br>
       신랑 · 신부에게 참석 여부를 전달해주세요.
       </p>
     <form class="mx-auto mt-10 flex flex-col max-w-md gap-4" on:submit|preventDefault={handleSubmit}>
@@ -69,7 +69,8 @@
         <button type="submit">등록</button>
       </div>
     </form>
-    <p class="mt-10 body">예식 당일 안내 받으신 지정석에 착석 부탁 드립니다.</p>
+    <p class="mt-10 small">* 예식 당일 안내 받으신 지정석에 착석 부탁 드리며,</p>
+    <p class="mt-2 small">장소가 협소한 관계로 축하 화환은 정중히 사양합니다.</p>
   </div>
 </div>
 

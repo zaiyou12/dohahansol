@@ -3,7 +3,7 @@
 
   const subTitle = "Contact"
   const title = "마음 전하실 곳";
-  const desc = "작은 결혼식을 올리게 되어 감사한 모든 분들을 함께 모시지 못하는 점 너그러운 양해를 구합니다. \n마음으로 축복해 주시면 더없는 기쁨으로 간직하고 서로 아끼며 살겠습니다."
+  const desc = "작은 결혼식을 올리게 되어<br/>감사한 모든 분들을 모시지 못하는 점<br/>너그러운 양해를 구합니다.<br/><br/>마음으로 축복해 주시면 더없는 기쁨으로<br/>간직하고 서로 아끼며 살겠습니다."
   const account_1 = "1002-293-182182";
   const account_2 = "8512-0104-055786";
 
@@ -21,9 +21,10 @@
   <div class="text-wrapper">
     <p class="sub-title">{ subTitle }</p>
     <h2 class="mt-2">{ title }</h2>
-    <p class="mt-10 body">{ desc }</p>
-    <p class="mt-10 body">소창열 · 배동옥의   아들   소재우</p>
-    <p class="mt-2 body">배종호 · 이영란의   딸    배채연</p>
+    <p class="mt-10 body">{@html desc }</p>
+    <p class="mt-6 small">* 축하 화환은 정중히 사양합니다.</p>
+    <p class="mt-10 body font-bold">소창열 · 배동옥의   아들   소재우</p>
+    <p class="mt-2 body font-bold">배종호 · 이영란의   딸    배채연</p>
   </div>
   <div class="flex justify-center mt-8">
     <button class="max-w-md" on:click={openDialog}>{" "}전달하기{" "}</button>

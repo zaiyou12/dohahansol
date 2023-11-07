@@ -24,7 +24,7 @@
           <div class="mt-3 text-center sm:mt-5">
             <p class="sub-title">{ subTitle }</p>
             <h2>{ title }</h2>
-            <div class="mt-2">
+            <div class="mt-6">
               <slot />
             </div>
           </div>
