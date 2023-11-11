@@ -3,9 +3,9 @@
 
   const subTitle = "Contact"
   const title = "마음 전하실 곳";
-  const desc = "작은 결혼식을 올리게 되어<br/>감사한 모든 분들을 모시지 못하는 점<br/>너그러운 양해를 구합니다.<br/><br/>마음으로 축복해 주시면 더없는 기쁨으로<br/>간직하고 서로 아끼며 살겠습니다."
+  const desc = "작은 결혼식을 올리게 되어<br/>감사한 모든 분들을 모시지 못하는 점<br/>너그러운 양해를 구합니다.<br/><br/>마음으로 축복해 주시면<br/>더없는 기쁨으로 간직하고<br/>서로 아끼며 살겠습니다."
   const account_1 = "1002-293-182182";
-  const account_2 = "8512-0104-055786";
+  const account_2 = "851201-04-055786";
 
   let open = false
 
