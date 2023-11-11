@@ -11,6 +11,7 @@
       const docRef = await addDoc(collection(db, "users"), {
         name, type, count
       })
+      alert('성공적으로 등록되었습니다, 감사합니다!')
     } catch (e) {
       alert(`Error: ${e}`)
     }
