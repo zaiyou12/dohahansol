@@ -46,7 +46,7 @@
         </div>
         <div class="input-wrapper flex-auto">
           <label for="count" class="block text-sm font-medium leading-6 text-gray-900">
-            동반인원
+            본인 외 동반인원
           </label>
           <select id="count" name="count">
             <option>없음</option>
