@@ -1,10 +1,10 @@
 <script>
 	import Gallery from '$lib/gallery.svelte';
-	const images = Array.from(Array(18).keys()).map(
-		(x) => `black_${(x + 1).toString().padStart(2, '0')}.webp`
+	const images = Array.from(Array(3).keys()).map(
+		(x) => `horizon_${(x + 1).toString()}.webp`
 	);
 </script>
 
 <div class="h-24 bg-gray-50"></div>
-<Gallery imgPath="imgs/black_gallery" {images} />
+<Gallery imgPath="imgs/horizontal" {images} />
 <div class="h-24 bg-gray-50"></div>

@@ -76,8 +76,6 @@
 				<button type="submit">등록</button>
 			</div>
 		</form>
-		<p class="small mt-10">* 예식 당일 안내 받으신 지정석에 착석 부탁 드리며</p>
-		<p class="small mt-2">장소가 협소하여 축하 화환은 정중히 사양합니다.</p>
 	</div>
 </div>
 

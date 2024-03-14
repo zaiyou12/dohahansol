@@ -1,17 +1,17 @@
 <script lang="ts">
-	const lat = 37.5604038;
-	const lng = 127.002479;
-	const place = '소재우 배채연 결혼식장';
+	const lat = 37.520759;
+	const lng = 127.055829;
+	const place = '구한솔 윤도하 결혼식장';
 </script>
 
 <div class="section bg-white">
 	<div class="text-wrapper">
 		<p class="sub-title">Map</p>
 		<h2 class="mt-2">오시는 길</h2>
-		<p class="body mt-10">2023년 12월 3일 일요일 오후 12시</p>
-		<p class="body">앰배서더 서울 풀만 호텔 19F 남산룸</p>
+		<p class="body mt-10">2024년 4월 28일 일요일 </p>
+		<p class="body">낮 12시 30분 드레스가든</p>
 	</div>
-	<div class="mx-auto max-w-2xl pt-16"><img src="/imgs/map.webp" alt="map" loading="lazy" /></div>
+	<div class="mx-auto max-w-2xl pt-16"><img src="/imgs/map.png" alt="map" loading="lazy" /></div>
 	<div class="text-wrapper mt-12">
 		<div class="flex justify-evenly md:hidden">
 			<a

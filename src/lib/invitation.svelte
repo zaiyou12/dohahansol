@@ -6,24 +6,13 @@
 </script>
 
 <div class="section bg-white">
-	<div class="img-wrapper">
-		<img src="/imgs/ribbon.webp" alt="재우 ♥ 채연" loading="lazy" />
-	</div>
 	<div class="text-wrapper">
 		<p class="sub-title">{subTitle}</p>
 		<h2 class="mt-2">{title}</h2>
-		<p class="body mt-10">두 사람이 서로에 대한 사랑과 믿음으로</p>
-		<p class="body">앞으로의 인생길을 함께 가려고 합니다</p>
-		<p class="body mt-6">먼 길도 가까운 길처럼</p>
-		<p class="body">아름답지 않은 길도 아름다운 길처럼</p>
-		<p class="body">두 손 잡고 웃으며 한 걸음씩 걸어가겠습니다.</p>
-		<p class="body mt-6">그 시작을 축복해주세요</p>
-	</div>
-	<div class="img-wrapper pt-6">
-		<img src="/imgs/signature.webp" alt="SO and BAE's signature" loading="lazy" />
-	</div>
-	<div class="mx-auto max-w-xs px-16 pt-6 sm:px-0">
-		<img src="/imgs/date.webp" alt="SO and BAE's wedding date" loading="lazy" />
+		<p class="body mt-10">우리가 함께 영원을 약속할 소중한 그날을 오랫동안 기다려왔습니다.</p>
+		<p class="body">그 오랜 기다림이 새로운 행복으로 시작될 날이 다가옵니다.</p>
+		<p class="body mt-6">바쁘시더라도 부디 참석하시어 저희 둘이 하나 되는 날을</p>
+		<p class="body">함께 축복해 주시고 격려해 주셨으면 좋겠습니다.</p>
 	</div>
 </div>
 

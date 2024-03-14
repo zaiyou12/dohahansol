@@ -6,7 +6,7 @@
 	import Map from '$lib/map.svelte';
 	import Rsvp from '$lib/rsvp.svelte';
 	import Account from '$lib/account.svelte';
-	import Footer from '$lib/footer.svelte';
+	// import Footer from '$lib/footer.svelte';
 	import GradientDivider from '$lib/gradient_divider.svelte';
 </script>
 
@@ -20,5 +20,6 @@
 	<Map />
 	<GradientDivider isWhiteToGray={true} />
 	<Rsvp />
-	<Footer />
+	<Account />
+	<!-- <Footer /> -->
 </div>

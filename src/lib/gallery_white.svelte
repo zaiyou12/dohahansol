@@ -1,7 +1,7 @@
 <script>
 	import Gallery from '$lib/gallery.svelte';
-	const images = Array.from(Array(18).keys()).map(
-		(x) => `white_${(x + 1).toString().padStart(2, '0')}.webp`
+	const images = Array.from(Array(8).keys()).map(
+		(x) => `vertical_${(x + 1).toString()}.webp`
 	);
 </script>
 
@@ -13,4 +13,4 @@
 	</div>
 </div>
 
-<Gallery imgPath="imgs/white_gallery" {images} />
+<Gallery imgPath="imgs/vertical" {images} />
