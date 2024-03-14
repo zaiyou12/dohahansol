@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: 'main'
+    branches: 'hansol'
 
 jobs:
   build_site:
@@ -22,7 +22,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/so-and-bae'
+          BASE_PATH: '/hansol-doha'
         run: |
           yarn run build
           touch build/.nojekyll
