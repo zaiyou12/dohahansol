@@ -12,9 +12,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: yarn
 
       - name: Install dependencies
@@ -22,13 +22,12 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/dohahansol'
+          BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           yarn run build
-          touch build/.nojekyll
 
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           # this should match the `pages` option in your adapter-static options
           path: 'build/'
@@ -48,4 +47,4 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
