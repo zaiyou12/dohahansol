@@ -22,7 +22,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/hansol-doha'
+          BASE_PATH: '/dohahansol'
         run: |
           yarn run build
           touch build/.nojekyll
