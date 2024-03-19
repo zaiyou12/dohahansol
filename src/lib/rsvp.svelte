@@ -8,7 +8,7 @@
 	 * @param {FormDataEntryValue | null} count */
 	async function addUser(name, type, count) {
 		try {
-			const docRef = await addDoc(collection(db, 'users'), {
+			const docRef = await addDoc(collection(db, 'hansol'), {
 				name,
 				type,
 				count
