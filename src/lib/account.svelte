@@ -3,7 +3,7 @@
 
 	const subTitle = 'Contact';
 	const title = '마음 전하실 곳';
-	const account_1 = '457124-52-115562';
+	const account_1 = '403-02-216161';
 	const account_2 = '302-1412-0708-11';
 	const account_3 = '402401-04-293021';
 	const account_4 = '703001-01-222310';
@@ -36,7 +36,7 @@
 	<Modal {open} {title} {subTitle} {closeDialog}>
 		<div class="mt-4 flex flex-row items-center justify-center gap-x-2">
 			<p class="whitespace-nowrap"><strong>신랑측:</strong></p>
-			<p class="whitespace-nowrap">농협 정종임</p>
+			<p class="whitespace-nowrap">농협 구기남</p>
 			<button on:click={() => onCopy(account_1)}>
 				{account_1}
 			</button>
